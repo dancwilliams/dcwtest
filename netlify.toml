@@ -1,5 +1,5 @@
 [context.production]
-  command = "mkdir public && mkdir public/static && ls -ltr && pwd && node ./themes/engimo/scripts/generate-search-index-algolia.js public/static && ls -ltr public/static && hugo"
+  command = "hugo && node ./themes/engimo/scripts/generate-search-index-algolia.js public/static && ls -ltr search"
   [context.production.environment]
     HUGO_VERSION = "0.53"
 
