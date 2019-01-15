@@ -20,3 +20,6 @@ themes/.DS_Store
 
 *.assert
 *.snap
+
+# Dependency directories
+node_modules/
