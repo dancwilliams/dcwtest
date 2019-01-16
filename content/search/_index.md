@@ -6,3 +6,4 @@ outputs:
   - json
 ---
 
+Search
